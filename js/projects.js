@@ -1,4 +1,4 @@
-// fetch('https://railingames.github.io/files/list.json'
+// fetch('https://railifly.github.io/files/list.json'
 fetch('/files/list.json')
   .then((lessgooo) => lessgooo.json())
   .then((games) => {
