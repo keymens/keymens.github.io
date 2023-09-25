@@ -466,5 +466,11 @@
         "gameroot": "/files/btd5/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
+    },
+       {
+        "game": "Rocket League",
+        "gameroot": "/files/dl6/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
     }
 ]
