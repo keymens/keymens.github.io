@@ -11,6 +11,12 @@
         "gamefile": "index.html",
         "gameicon": "gameicon.jpeg"
     },
+     {
+        "game": "Slope",
+        "gameroot": "/files/dh/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
     {
         "game": "Retro Bowl",
         "gameroot": "/files/Retro/",
