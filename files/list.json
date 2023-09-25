@@ -1,469 +1,469 @@
 [
     {
         "game": "Subway Surfers",
-        "gameroot": "https://railingames.github.io/files/Subway/",
+        "gameroot": "/files/Subway/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Slope",
-        "gameroot": "https://railingames.github.io/files/Slope/",
+        "gameroot": "/files/Slope/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpeg"
     },
     {
         "game": "Retro Bowl",
-        "gameroot": "https://railingames.github.io/files/Retro/",
+        "gameroot": "/files/Retro/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "New Super Mario Brothers Online",
-        "gameroot": "https://railingames.github.io/files/NSMB/",
+        "gameroot": "/files/NSMB/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Friday Night Funkin",
-        "gameroot": "https://railingames.github.io/files/Friday/",
+        "gameroot": "/files/Friday/",
         "gamefile": "index.html",
         "gameicon": "gameicon.gif"
     },
     {
         "game": "Cookie Clicker",
-        "gameroot": "https://railingames.github.io/files/Cookie/",
+        "gameroot": "/files/Cookie/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "OvO",
-        "gameroot": "https://railingames.github.io/files/0v0/",
+        "gameroot": "/files/0v0/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Backrooms",
-        "gameroot": "https://railingames.github.io/files/Back/",
+        "gameroot": "/files/Back/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Backrooms 2D",
-        "gameroot": "https://railingames.github.io/files/br2d/",
+        "gameroot": "/files/br2d/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Adventure with Anxiety",
-        "gameroot": "https://railingames.github.io/files/anxiety/",
+        "gameroot": "/files/anxiety/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "We Become What We Behold",
-        "gameroot": "https://railingames.github.io/files/wbwwb/",
+        "gameroot": "/files/wbwwb/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "2048",
-        "gameroot": "https://railingames.github.io/files/20/",
+        "gameroot": "/files/20/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Gura Tambourine",
-        "gameroot": "https://railingames.github.io/files/gura/",
+        "gameroot": "/files/gura/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Bacon May Die",
-        "gameroot": "https://railingames.github.io/files/bacon/",
+        "gameroot": "/files/bacon/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Iron Snout",
-        "gameroot": "https://railingames.github.io/files/is/",
+        "gameroot": "/files/is/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "P.Craft",
-        "gameroot": "https://railingames.github.io/files/pcraf/",
+        "gameroot": "/files/pcraf/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "1v1.lol",
-        "gameroot": "https://railingames.github.io/files/lol/",
+        "gameroot": "/files/lol/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Guess the Number Game",
-        "gameroot": "https://railingames.github.io/files/GTN/",
+        "gameroot": "/files/GTN/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Snake",
-        "gameroot": "https://railingames.github.io/files/snak/",
+        "gameroot": "/files/snak/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Baldi's Basics",
-        "gameroot": "https://railingames.github.io/files/bald/",
+        "gameroot": "/files/bald/",
         "gamefile": "index.html",
         "gameicon": "gameicon.webp"
     },
     {
         "game": "Tic-Tac-Toe",
-        "gameroot": "https://railingames.github.io/files/tic/",
+        "gameroot": "/files/tic/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Rock Paper Scissors",
-        "gameroot": "https://railingames.github.io/files/rps/",
+        "gameroot": "/files/rps/",
         "gamefile": "index.html",
         "gameicon": "gameicon.webp"
     },
     {
         "game": "territorial.io",
-        "gameroot": "https://railingames.github.io/files/ter/",
+        "gameroot": "/files/ter/",
         "gamefile": "index.html",
         "gameicon": "gameicon.webp"
     },
     {
         "game": "Paper.io 2",
-        "gameroot": "https://railingames.github.io/files/paper2/",
+        "gameroot": "/files/paper2/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jfif"
     },
     {
         "game": "Paper.io 3D",
-        "gameroot": "https://railingames.github.io/files/paper3/",
+        "gameroot": "/files/paper3/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "NBA Jam",
-        "gameroot": "https://railingames.github.io/files/nj/",
+        "gameroot": "/files/nj/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Gun Mayhem 2 More Mayhem",
-        "gameroot": "https://railingames.github.io/files/gm2/",
+        "gameroot": "/files/gm2/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Gun Mayhem",
-        "gameroot": "https://railingames.github.io/files/gm/",
+        "gameroot": "/files/gm/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Fancy Pants Adventures",
-        "gameroot": "https://railingames.github.io/files/fp/",
+        "gameroot": "/files/fp/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "The Fancy Pants Adventure World 2",
-        "gameroot": "https://railingames.github.io/files/fp2/",
+        "gameroot": "/files/fp2/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Drive Mad",
-        "gameroot": "https://railingames.github.io/files/Drive/",
+        "gameroot": "/files/Drive/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Roblox - Now.gg",
-        "gameroot": "https://railingames.github.io/files/rx/",
+        "gameroot": "/files/rx/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Plants VS Zombies",
-        "gameroot": "https://railingames.github.io/files/pvz/",
+        "gameroot": "/files/pvz/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Geometry Dash",
-        "gameroot": "https://railingames.github.io/files/gd/",
+        "gameroot": "/files/gd/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Terraria",
-        "gameroot": "https://railingames.github.io/files/t/",
+        "gameroot": "/files/t/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Getting over it",
-        "gameroot": "https://railingames.github.io/files/goi/",
+        "gameroot": "/files/goi/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Paper Minecraft",
-        "gameroot": "https://railingames.github.io/files/pm/",
+        "gameroot": "/files/pm/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Moto x3m",
-        "gameroot": "https://railingames.github.io/files/m/",
+        "gameroot": "/files/m/",
         "gamefile": "index.html",
         "gameicon": "splash.jpg"
     },
     {
         "game": "Moto x3m - Winter",
-        "gameroot": "https://railingames.github.io/files/mw/",
+        "gameroot": "/files/mw/",
         "gamefile": "index.html",
         "gameicon": "download.jpeg"
     },
     {
         "game": "Moto x3m - Spooky",
-        "gameroot": "https://railingames.github.io/files/ms/",
+        "gameroot": "/files/ms/",
         "gamefile": "index.html",
         "gameicon": "splash.jpeg"
     },
     {
         "game": "Moto x3m - Pool Party",
-        "gameroot": "https://railingames.github.io/files/mp/",
+        "gameroot": "/files/mp/",
         "gamefile": "index.html",
         "gameicon": "splash.jpg"
     },
     {
         "game": "Vex 6",
-        "gameroot": "https://railingames.github.io/files/v6/",
+        "gameroot": "/files/v6/",
         "gamefile": "index.html",
         "gameicon": "icon.png"
     },
     {
         "game": "Vex 7",
-        "gameroot": "https://railingames.github.io/files/v7/",
+        "gameroot": "/files/v7/",
         "gamefile": "index.html",
         "gameicon": "icon.png"
     },
     {
         "game": "Among Us",
-        "gameroot": "https://railingames.github.io/files/au/",
+        "gameroot": "/files/au/",
         "gamefile": "index.html",
         "gameicon": "game.jpg"
     },
     {
         "game": "Toss the Turtle",
-        "gameroot": "https://railingames.github.io/files/ttt/",
+        "gameroot": "/files/ttt/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Learn to Fly",
-        "gameroot": "https://railingames.github.io/files/ltf/",
+        "gameroot": "/files/ltf/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Learn to Fly 2",
-        "gameroot": "https://railingames.github.io/files/ltf2/",
+        "gameroot": "/files/ltf2/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Doge Miner",
-        "gameroot": "https://railingames.github.io/files/dogem/",
+        "gameroot": "/files/dogem/",
         "gamefile": "index.html",
         "gameicon": "game.png"
     },
     {
         "game": "Trimps",
-        "gameroot": "https://railingames.github.io/files/tr/",
+        "gameroot": "/files/tr/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Basket Random",
-        "gameroot": "https://railingames.github.io/files/br/",
+        "gameroot": "/files/br/",
         "gamefile": "index.html",
         "gameicon": "splash.jpeg"
     },
     {
         "game": "Impossible Quiz",
-        "gameroot": "https://railingames.github.io/files/iq/",
+        "gameroot": "/files/iq/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Rooftop Snipers",
-        "gameroot": "https://railingames.github.io/files/rs/",
+        "gameroot": "/files/rs/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Getaway Shootout",
-        "gameroot": "https://railingames.github.io/files/gs/",
+        "gameroot": "/files/gs/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Basketball Stars",
-        "gameroot": "https://railingames.github.io/files/bs/",
+        "gameroot": "/files/bs/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Papas Pizzeria",
-        "gameroot": "https://railingames.github.io/files/pp/",
+        "gameroot": "/files/pp/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Funny Shooter 2",
-        "gameroot": "https://railingames.github.io/files/fs2/",
+        "gameroot": "/files/fs2/",
         "gamefile": "index.html",
         "gameicon": "logo.png"
     },
     {
         "game": "Happy Wheels",
-        "gameroot": "https://railingames.github.io/files/hw/",
+        "gameroot": "/files/hw/",
         "gamefile": "index.html",
         "gameicon": "b.png"
     },
     {
         "game": "Raft Wars",
-        "gameroot": "https://railingames.github.io/files/rw/",
+        "gameroot": "/files/rw/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },    
     {
          "game": "BitCoin Clicker",
-        "gameroot": "https://railingames.github.io/files/bc/",
+        "gameroot": "/files/bc/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Idle Breakout",
-       "gameroot": "https://railingames.github.io/files/ib/",
+       "gameroot": "/files/ib/",
        "gamefile": "index.html",
        "gameicon": "gameicon.png"
    },
    {
         "game": "Stick Man Hook",
-        "gameroot": "https://railingames.github.io/files/smh/",
+        "gameroot": "/files/smh/",
         "gamefile": "index.html",
         "gameicon": "unnamed.jpg"
     },
     {
         "game": "Tiny Fishing",
-        "gameroot": "https://railingames.github.io/files/tf/",
+        "gameroot": "/files/tf/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Tunnel Rush",
-        "gameroot": "https://railingames.github.io/files/trush/",
+        "gameroot": "/files/trush/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Raft Wars 2",
-        "gameroot": "https://railingames.github.io/files/rw2/",
+        "gameroot": "/files/rw2/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Elastic Face",
-        "gameroot": "https://railingames.github.io/files/elastic/",
+        "gameroot": "/files/elastic/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Avatar Arena",
-        "gameroot": "https://railingames.github.io/files/aa/",
+        "gameroot": "/files/aa/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Dodge",
-        "gameroot": "https://railingames.github.io/files/dodge/",
+        "gameroot": "/files/dodge/",
         "gamefile": "index.html",
         "gameicon": "dodge.png"
     },
     {
         "game": "Tetris",
-        "gameroot": "https://railingames.github.io/files/tet/",
+        "gameroot": "/files/tet/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Bitlife",
-        "gameroot": "https://railingames.github.io/files/bl/",
+        "gameroot": "/files/bl/",
         "gamefile": "index.html",
         "gameicon": "logo.png"
     },
     {
         "game": "Nut Simulator",
-        "gameroot": "https://railingames.github.io/files/ns/",
+        "gameroot": "/files/ns/",
         "gamefile": "index.html",
         "gameicon": "icon.png"
     },
     {
         "game": "Algebra Jump",
-        "gameroot": "https://railingames.github.io/files/aj/",
+        "gameroot": "/files/aj/",
         "gamefile": "index.html",
         "gameicon": "roblox.gif"
     },
     {
         "game": "Doodle Jump",
-        "gameroot": "https://railingames.github.io/files/dj/",
+        "gameroot": "/files/dj/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Duck Life",
-        "gameroot": "https://railingames.github.io/files/dl1/",
+        "gameroot": "/files/dl1/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Duck Life 2",
-        "gameroot": "https://railingames.github.io/files/dl2/",
+        "gameroot": "/files/dl2/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Duck Life 3",
-        "gameroot": "https://railingames.github.io/files/dl3/",
+        "gameroot": "/files/dl3/",
         "gamefile": "index.html",
         "gameicon": "gameicon.jpg"
     },
     {
         "game": "Duck Life 4",
-        "gameroot": "https://railingames.github.io/files/dl4/",
+        "gameroot": "/files/dl4/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Duck Life 5",
-        "gameroot": "https://railingames.github.io/files/dl5/",
+        "gameroot": "/files/dl5/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
         "game": "Bloons TD 5",
-        "gameroot": "https://railingames.github.io/files/btd5/",
+        "gameroot": "/files/btd5/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     }
