@@ -5,6 +5,12 @@
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
+      {
+        "game": "Lego Batman",
+        "gameroot": "/files/legobat/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
     {
         "game": "Slope",
         "gameroot": "/files/Slope/",
