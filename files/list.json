@@ -48,8 +48,8 @@
         "gameicon": "gameicon.png"
     },
     {
-        "game": "OvO",
-        "gameroot": "/files/0v0/",
+        "game": "Monkey Ball Jr.",
+        "gameroot": "/files/mbjr/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
