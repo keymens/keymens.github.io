@@ -76,6 +76,10 @@ fetch('/files/list.json')
     var url = "/files/64/index.html";
     window.open(url)
 }
+ function emJS() {
+    var url = "/files/emJS/index.html";
+    window.open(url)
+}
 
 function mc15() {
   var url = "/files/15/index.html";
