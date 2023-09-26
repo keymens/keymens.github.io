@@ -1,0 +1,14 @@
+[
+    {
+        "game": "Rammerhead",
+        "gameroot": "/files/proxy/rammerhead/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Outred",
+        "gameroot": "/files/proxy/outr/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    }
+]
