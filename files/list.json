@@ -41,6 +41,12 @@
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
+     {
+        "game": "Only Up",
+        "gameroot": "/files/ou/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
     {
         "game": "OvO",
         "gameroot": "/files/0v0/",
