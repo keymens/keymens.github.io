@@ -1,41 +1,4 @@
-<div>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-
-<script type="text/javascript">
-
-	var resizeOwnEmulator = function(width, height)
-	{
-		var emulator = $('#emulator');
-		emulator.css('width', width);
-		emulator.css('height', height);
-	}
-
-	$(function()
-	{
-		function embed()
-		{
-			var emulator = $('#emulator');
-			if(emulator)
-			{
-				var flashvars = 
-				{
-					system : 'nes',
-					url : 'https://link.storjshare.io/s/jwyh7cc6z5qaadr32mibpvrntk7q/saa/bat.nds?download=1'
-				};
-				var params = {};
-				var attributes = {};
-				
-				params.allowscriptaccess = 'sameDomain';
-				params.allowFullScreen = 'true';
-				params.allowFullScreenInteractive = 'true';
-				
-				swfobject.embedSWF('flash/Nesbox.swf', 'emulator', '640', '480', '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
-			}
-		}
-		
-		embed();
-	});
-	
-</script>
+<div style="overflow: hidden; margin: 15px auto; max-width: 1080px;">
+<iframe scrolling="no" src="https://math-study.github.io/gba/main/play/index.html?console=nds&game=LEGO_Batman_-_The_Videogame_(USA)_(EnFrEs)" style="border: 0px none; margin-left: 0px; height: 859px; margin-top: -133px; width: 1080px; margin-bottom: -260px;">
+</iframe>
+</div>
