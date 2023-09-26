@@ -77,7 +77,7 @@ fetch('/files/list.json')
     window.open(url)
 }
  function emJS() {
-    var url = "/files/emJS/index.html";
+    var url = "/others/emJS/index.html";
     window.open(url)
 }
 
