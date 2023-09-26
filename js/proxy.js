@@ -72,17 +72,12 @@ fetch('/files/proxylist.json')
     }
 }
 
-  function sm64() {
-    var url = "/files/64/index.html";
+  function rh() {
+    var url = "/files/proxy/rammerhead/index.html";
     window.open(url)
 }
 
-function mc15() {
-  var url = "/files/15/index.html";
-  window.open(url)
-}
-
-function mc18() {
-  var url = "/files/18/index.html";
+function outred() {
+  var url = "/files/proxy/outr/index.html";
   window.open(url)
 }
