@@ -1,4 +1,4 @@
-// fetch('https://dragpunnn.github.io/files/list.json'
+// fetch('https://dragpunnn.github.io/files/proxylist.json'
 fetch('/files/proxylist.json')
   .then((lessgooo) => lessgooo.json())
   .then((games) => {
@@ -70,3 +70,19 @@ fetch('/files/proxylist.json')
       iframe.src = url;
       win.document.body.appendChild(iframe);
     }
+}
+
+  function sm64() {
+    var url = "/files/64/index.html";
+    window.open(url)
+}
+
+function mc15() {
+  var url = "/files/15/index.html";
+  window.open(url)
+}
+
+function mc18() {
+  var url = "/files/18/index.html";
+  window.open(url)
+}
