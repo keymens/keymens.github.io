@@ -65,9 +65,9 @@
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
-    {
-        "game": "Backrooms 2D",
-        "gameroot": "/files/br2d/",
+       {
+        "game": "Smash Karts",
+        "gameroot": "/files/smashkart/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
