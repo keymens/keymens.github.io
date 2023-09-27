@@ -71,13 +71,3 @@ fetch('/files/proxylist.json')
       win.document.body.appendChild(iframe);
     }
 }
-
-  function rh() {
-    var url = "/files/proxy/rammerhead/index.html";
-    window.open(url)
-}
-
-function outred() {
-  var url = "/files/proxy/outr/index.html";
-  window.open(url)
-}
