@@ -35,6 +35,12 @@
         "gamefile": "index.html",
         "gameicon": "gameicon.gif"
     },
+      {
+        "game": "Mortal Kombat Advance",
+        "gameroot": "/files/mortaladvance/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
     {
         "game": "Cookie Clicker",
         "gameroot": "/files/Cookie/",
