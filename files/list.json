@@ -42,8 +42,8 @@
         "gameicon": "gameicon.png"
     },
     {
-        "game": "Cookie Clicker",
-        "gameroot": "/files/Cookie/",
+        "game": "Amazing Rope Police",
+        "gameroot": "/files/amazingrope/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
