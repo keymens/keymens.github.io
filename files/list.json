@@ -36,7 +36,7 @@
         "gameicon": "gameicon.gif"
     },
       {
-        "game": "Mortal Kombat.\nAdvance",
+        "game": "Mortal Kombat <br> Advance",
         "gameroot": "/files/mortaladvance/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
