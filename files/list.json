@@ -42,7 +42,7 @@
         "gameicon": "gameicon.png"
     },
     {
-        "game": "Amazing Rope Police",
+        "game": "Amazing Rope <br> Police",
         "gameroot": "/files/amazingrope/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
