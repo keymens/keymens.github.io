@@ -204,12 +204,6 @@
         "gameicon": "gameicon.png"
     },
     {
-        "game": "Roblox - Now.gg",
-        "gameroot": "/files/rx/",
-        "gamefile": "index.html",
-        "gameicon": "gameicon.jpg"
-    },
-    {
         "game": "Plants VS Zombies",
         "gameroot": "/files/pvz/",
         "gamefile": "index.html",
@@ -436,12 +430,6 @@
         "gameroot": "/files/ns/",
         "gamefile": "index.html",
         "gameicon": "icon.png"
-    },
-    {
-        "game": "Algebra Jump",
-        "gameroot": "/files/aj/",
-        "gamefile": "index.html",
-        "gameicon": "roblox.gif"
     },
     {
         "game": "Doodle Jump",
