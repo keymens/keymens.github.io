@@ -437,6 +437,12 @@
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
+        {
+        "game": "Papa's Pancakeria",
+        "gameroot": "/files/pancake/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
     {
         "game": "Duck Life",
         "gameroot": "/files/dl1/",
