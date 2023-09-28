@@ -75,12 +75,7 @@ fetch('/files/list.json')
   function mov() {
     var url = "/files/mov/index.html";
     window.open(url)
-}
-
-  function carto() {
-    var url = "/files/carto/index.html";
-    window.open(url)
-}
+  }
 
   function sm64() {
     var url = "/files/64/index.html";
