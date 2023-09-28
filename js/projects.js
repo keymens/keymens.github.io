@@ -69,7 +69,17 @@ fetch('/files/list.json')
       iframe.style.margin = '0';
       iframe.src = url;
       win.document.body.appendChild(iframe);
-    }
+      }
+  }
+
+  function mov() {
+    var url = "/files/mov/index.html";
+    window.open(url)
+}
+
+  function carto() {
+    var url = "/files/carto/index.html";
+    window.open(url)
 }
 
   function sm64() {
