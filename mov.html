@@ -16,6 +16,53 @@
   <meta name="theme-color" content="#eb6123">
 
   <style>
+           /* Styles for the popup container */
+        #customPopupContainer {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        /* Styles for the popup itself */
+        #customPopup {
+            background-color: #111;
+            color: #000;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            animation: slideIn 0.5s ease-in-out;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Close button style */
+        #closePopupBtn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        /* Animation keyframes */
+        @keyframes slideIn {
+            from {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
     /* Style for the container div */
     #container {
       text-align: center;
@@ -39,6 +86,15 @@
 
     /* Style for the submit button */
     #submitBtn {
+      background-color: transparent;
+      color: white;
+      border: 3px solid;
+      border-radius: 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: border-color 0.3s;
+    }
+       #infoBtn {
       background-color: transparent;
       color: white;
       border: 3px solid;
@@ -80,16 +136,18 @@
   <br>
   <hr>
   <br>
-  <h1 class="ti">*For Shows Add '&s=(season)&e=(episode)' To The End Of The URL. Ex. tt2861424&s=5&e=5*</h1>
   <div id="container">
     <form id="urlForm" target="_blank">
+<button id="infoBtn">More Info</button>
+
       <input type="text" id="videoId" name="videoId" required placeholder="Add IMDb Movie URL">
+
+      
       <input type="submit" id="submitBtn" value="WATCH MOVIE!">
     </form>
   </div>
 
   <div id="result"></div>
-
   <script>
     document.getElementById("urlForm").addEventListener("submit", function (event) {
       event.preventDefault();
@@ -99,7 +157,6 @@
 
       // Regular expression to match "tt" followed by numbers
       const regex = /tt\d+/;
-
       // Check if the input is a URL
       if (input.includes("imdb.com/title/")) {
         // Use URL API to parse the URL
@@ -175,6 +232,30 @@
         <h1>Movie Website</h1>
       </a> </div>
   </div>
+      <div id="customPopupContainer">
+        <div id="customPopup">
+            <span id="closePopupBtn">&times;</span>
+            <h2>TV SHOWS</h2>
+          <br>
+            <p>*For Shows Add '&s=(season)&e=(episode)' To The End Of The URL.* <br> <br>Ex. ...tt2861424<span style="color: #ff0f0f;">5&e=5</span></p>
+        </div>
+    </div>
+    <script>
+        const infoBtn = document.getElementById("infoBtn");
+        const customPopupContainer = document.getElementById("customPopupContainer");
+        const closePopupBtn = document.getElementById("closePopupBtn");
+
+        infoBtn.addEventListener("click", (event) => {
+            if (event.target === infoBtn) {
+                customPopupContainer.style.display = "flex"; // Show the popup container
+            }
+        });
+
+        closePopupBtn.addEventListener("click", () => {
+            customPopupContainer.style.display = "none"; // Hide the popup container
+        });
+    </script>
+
 </body>
 
 </html>
