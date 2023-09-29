@@ -1,150 +1,179 @@
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Dragpunnn</title>
-    <link rel="stylesheet" href="./css/mov.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <script src="https://kit.fontawesome.com/11fe60c87a.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./imgs/Logo.png" sizes="128x128" />
-    <meta property="og:title" content="Railin"/>
-    <meta property="og:description" content="Best game site"/>
-    <meta property="og:image" content="https://railingames.github.io/imgs/banner.png"/>
-    <meta name="twitter:card" content="summary_large_image">
-    <script src="./js/main.js"></script>
-    <meta name="theme-color" content="#eb6123">
+  <meta charset="UTF-8">
+  <title>Dragpunnn</title>
+  <link rel="stylesheet" href="./css/mov.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://kit.fontawesome.com/11fe60c87a.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./imgs/Logo.png" sizes="128x128" />
+  <meta property="og:title" content="Railin" />
+  <meta property="og:description" content="Best game site" />
+  <meta property="og:image" content="https://railingames.github.io/imgs/banner.png" />
+  <meta name="twitter:card" content="summary_large_image">
+  <script src="./js/main.js"></script>
+  <meta name="theme-color" content="#eb6123">
 
-     <style>
-        /* Style for the container div */
-        #container {
-            text-align: center;
-            margin-top: 20px;
-        }
+  <style>
+    /* Style for the container div */
+    #container {
+      text-align: center;
+      margin-top: 20px;
+    }
 
-        /* Style for the search bar */
-        #videoId {
-          color: white;
-            background: transparent;
-            border: 3px solid;
-            border-color: white;
-            border-radius: 10px;
-            font-size: 18px;
-            text-align: center;
-            padding: 5px;
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
+    /* Style for the search bar */
+    #videoId {
+      color: white;
+      background: transparent;
+      border: 3px solid;
+      border-color: white;
+      border-radius: 10px;
+      font-size: 18px;
+      text-align: center;
+      padding: 5px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
 
-        /* Style for the submit button */
-        #submitBtn {
-            background-color: transparent;
-            color: white;
-            border: 3px solid;
-            border-radius: 10px;
-            padding: 10px 20px;
-            cursor: pointer;
-            transition: border-color 0.3s;
-        }
+    /* Style for the submit button */
+    #submitBtn {
+      background-color: transparent;
+      color: white;
+      border: 3px solid;
+      border-radius: 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: border-color 0.3s;
+    }
 
-        /* Change border color on hover */
-        #submitBtn:hover {
-            border-color: red;
-        }
-    </style>
+    /* Change border color on hover */
+    #submitBtn:hover {
+      border-color: red;
+    }
+  </style>
 </head>
+
 <body onload="pageLoad()">
 
-    <nav class="bar">
-        <a class="iconnnn"><img src="./imgs/Logo.png"></a>
-        <ul>
-        <li><a href="./"><i class="fa-solid fa-house"></i><span >Home</span></a></li>
-            <li><a href="./projects.html"><i class="fa-solid fa-gamepad"></i><span>Games</span></a></li>
-           <li><a href="./mov.html"><i class="fa-solid fa-film""></i><span>Movies</span></a></li>
-               <li><a href="./proxy.html"><i class="fa-solid fa-location-dot"></i><span>Proxy</span></a></li>
-            <li><a href="./settings.html"><i class="fa-solid fa-gear"></i><span>Settings</span></a></li>
-          
-        </ul>
-    </nav>
+  <nav class="bar">
+    <a class="iconnnn"><img src="./imgs/Logo.png"></a>
+    <ul>
+      <li><a href="./"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+      <li><a href="./projects.html"><i class="fa-solid fa-gamepad"></i><span>Games</span></a></li>
+      <li><a href="./mov.html"><i class="fa-solid fa-film""></i><span>Movies</span></a></li>
+               <li><a href=" ./proxy.html"><i class="fa-solid fa-location-dot"></i><span>Proxy</span></a></li>
+      <li><a href="./settings.html"><i class="fa-solid fa-gear"></i><span>Settings</span></a></li>
 
-    <div class="frame-main hidden">
-        <div class="frame-bar" id="buggati">
-            <i id="close" class="fa-solid fa-arrow-left"></i>
-            <i id="fullscreen" class="fa-solid fa-maximize"></i>
-        </div>
-        <iframe id="homework" src=""></iframe>
+    </ul>
+  </nav>
+
+  <div class="frame-main hidden">
+    <div class="frame-bar" id="buggati">
+      <i id="close" class="fa-solid fa-arrow-left"></i>
+      <i id="fullscreen" class="fa-solid fa-maximize"></i>
     </div>
-<h1 class="ti">Movies and TV! </h1>
-    <br>
-    <hr>
-    <br>
-    <div id="container">
-        <form id="urlForm" target="_blank">
-            <input type="text" id="videoId" name="videoId" required placeholder="Add IMDb Movie URL">
-            <input type="submit" id="submitBtn" value="WATCH MOVIE!">
-        </form>
+    <iframe id="homework" src=""></iframe>
+  </div>
+  <h1 class="ti">Movies and TV! </h1>
+  <br>
+  <hr>
+  <br>
+  <div id="container">
+    <form id="urlForm" target="_blank">
+      <input type="text" id="videoId" name="videoId" required placeholder="Add IMDb Movie URL">
+      <input type="submit" id="submitBtn" value="WATCH MOVIE!">
+    </form>
+  </div>
+
+  <div id="result"></div>
+
+  <script>
+    document.getElementById("urlForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      // Get the user-entered IMDb ID or URL
+      const input = document.getElementById("videoId").value;
+
+      // Regular expression to match "tt" followed by numbers
+      const regex = /tt\d+/;
+
+      // Check if the input is a URL
+      if (input.includes("imdb.com/title/")) {
+        // Use URL API to parse the URL
+        const url = new URL(input);
+
+        // Get the pathname from the URL (e.g., /title/tt4154756/)
+        const pathname = url.pathname;
+
+        // Extract "tt" part from the pathname
+        const match = pathname.match(regex);
+
+        if (match) {
+          // Extracted "tt" part
+          const imdbId = match[0];
+
+          // Base URL
+          const baseUrl = "https://multiembed.mov/?video_id=";
+
+          // Construct the finished URL
+          const finishedUrl = baseUrl + imdbId;
+
+          // Redirect the user to the finished URL
+          window.open(finishedUrl, '_blank'); // Open in a new tab
+        } else {
+          // Handle invalid URL input
+          alert("Please enter a valid IMDb URL with 'tt' followed by numbers.");
+        }
+      } else if (input.match(regex)) {
+        // Input is already "tt" followed by numbers
+        const imdbId = input;
+
+        // Base URL
+        const baseUrl = "https://multiembed.mov/?video_id=";
+
+        // Construct the finished URL
+        const finishedUrl = baseUrl + imdbId;
+
+        // Redirect the user to the finished URL
+        window.open(finishedUrl, '_blank'); // Open in a new tab
+      } else {
+        // Handle invalid input
+        alert("Please enter a valid IMDb Movie ID or URL.");
+      }
+    });
+  </script>
+  <center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div class="header-caption" id="page-top">
+      <!-- type headline start-->
+      <h3 class="cd-headline clip is-full-width">
+        <!-- STATIC TEXT -->
+        <span>EX. </span>
+        <!-- ROTATING TEXT -->
+        <span class="cd-words-wrapper" style="width: 178px;">
+          <b class="is-visible">imdb.com/title/tt0468569</b>
+          <b class="is-hidden">tt0468569</b>
+          <b class="is-hidden">imdb.com/title/tt0068646</b>
+          <b class="is-hidden">tt0068646</b>
+        </span>
+        <!-- STATIC TEXT -->
+        <span>.</span>
+      </h3>
+      <!-- type headline end -->
     </div>
-
-    <div id="result"></div>
-
-    <script>
-        document.getElementById("urlForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-
-            // Get the user-entered IMDb ID or URL
-            const input = document.getElementById("videoId").value;
-
-            // Regular expression to match "tt" followed by numbers
-            const regex = /tt\d+/;
-            
-            // Check if the input is a URL
-            if (input.includes("imdb.com/title/")) {
-                // Use URL API to parse the URL
-                const url = new URL(input);
-
-                // Get the pathname from the URL (e.g., /title/tt4154756/)
-                const pathname = url.pathname;
-
-                // Extract "tt" part from the pathname
-                const match = pathname.match(regex);
-
-                if (match) {
-                    // Extracted "tt" part
-                    const imdbId = match[0];
-
-                    // Base URL
-                    const baseUrl = "https://multiembed.mov/?video_id=";
-
-                    // Construct the finished URL
-                    const finishedUrl = baseUrl + imdbId;
-
-                    // Redirect the user to the finished URL
-                    window.open(finishedUrl, '_blank'); // Open in a new tab
-                } else {
-                    // Handle invalid URL input
-                    alert("Please enter a valid IMDb URL with 'tt' followed by numbers.");
-                }
-            } else if (input.match(regex)) {
-                // Input is already "tt" followed by numbers
-                const imdbId = input;
-
-                // Base URL
-                const baseUrl = "https://multiembed.mov/?video_id=";
-
-                // Construct the finished URL
-                const finishedUrl = baseUrl + imdbId;
-
-                // Redirect the user to the finished URL
-                window.open(finishedUrl, '_blank'); // Open in a new tab
-            } else {
-                // Handle invalid input
-                alert("Please enter a valid IMDb Movie ID or URL.");
-            }
-        });
-    </script>
-    <br>
-        <div class="classes">
-       <div class="class"><a href="./files/mov/index.html" target="_blank"> <img src="./files/mov/gameicon.png" onerror="this.src='./imgs/noicon.png'"> <h1>Movie Website</h1> </a> </div>
-              </div>
+    <!-- partial -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+    <script src="./js/mov.js"></script>
+  </center>
+  <br>
+  <div class="classes">
+    <div class="class"><a href="./files/mov/index.html" target="_blank"> <img src="./files/mov/gameicon.png"
+          onerror="this.src='./imgs/noicon.png'">
+        <h1>Movie Website</h1>
+      </a> </div>
+  </div>
 </body>
+
 </html>
