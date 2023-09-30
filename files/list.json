@@ -71,6 +71,12 @@
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
+        {
+        "game": "PUBG",
+        "gameroot": "/files/pubg/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
     {
         "game": "We Become What We Behold",
         "gameroot": "/files/wbwwb/",
