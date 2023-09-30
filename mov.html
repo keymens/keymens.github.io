@@ -137,14 +137,15 @@
   <hr>
   <br>
   <div id="container">
-    <form id="urlForm" target="_blank">
+    <form id="urlForm" target="openIframePopup()">
+    </form>
 <button id="infoBtn">More Info</button>
 
       <input type="text" id="videoId" name="videoId" required placeholder="Add IMDb Movie URL">
 
-      
-      <input type="submit" id="submitBtn" value="WATCH MOVIE!">
-    </form>
+
+      <input type="submit" id="submitBtn" form="urlForm" value="WATCH MOVIE!">
+
   </div>
 
   <div id="result"></div>
