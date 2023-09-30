@@ -1,0 +1,14 @@
+[
+    {
+        "game": "Movies",
+        "gameroot": "/files/mov/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Cartoons",
+        "gameroot": "/files/carto/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    }
+]
