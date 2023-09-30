@@ -14,6 +14,80 @@
     <meta name="twitter:card" content="summary_large_image">
     <script src="./js/main.js"></script>
     <meta name="theme-color" content="#eb6123">
+
+  <style>
+.main{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+    }
+ 
+   .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width:220.52px;
+        min-height: 56px;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+        font-weight: 400;
+        text-decoration: none;
+        transition: all 0.5s linear;
+    }
+ 
+    .hov {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 0 10px;
+    }
+ 
+    ion-icon {
+        font-size: 2em;
+        transition: all 0.5s linear;
+    }
+ 
+    .btn:hover ion-icon {
+        transform: rotate(-90deg);
+ 
+    }
+ 
+    .butt {
+        position: relative;
+    }
+ 
+    .yellow {
+        /* background: #0ebac5; */
+        background: none;
+        color: black;
+    }
+ 
+    .yellow::before {
+        content: "";
+        display: block;
+        width: 56px;
+        height: 100%;
+        background-color: #FFA500;
+        position: absolute;
+        border-radius: 100px;
+        left: 1em;
+        z-index: -1;
+        transition: all 600ms ease;
+    }
+ 
+    .yellow:hover::before {
+        width: 100%;
+    }
+ 
+    .yellow:hover ion-icon {
+        transform: translateX(10px);
+    }
+
+    
+  </style>
+  
 </head>
 <body onload="pageLoad()">
     
@@ -28,10 +102,24 @@
           
         </ul>
     </nav>
-    
+    <br>
     <div class="box">
         <h1>Welcome to Dragpunnn!</h1>
     </div>
+  <center>
+<br>
+    <br>
+    <main class="main">
+        <div class="butt">
+            <a href="./projects.html" class="btn yellow">
+                <span class="hov">Games!</span>
+                <ion-icon name="arrow-forward"></ion-icon>
+            </a>
+        </div>
+    </main>
+  </center>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
 
 </body>
 </html>
