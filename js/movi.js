@@ -54,6 +54,10 @@ fetch('/files/mov.json')
         }
   }
 
+  function emJS() {
+    var urlObj = new window.URL(window.location.href);
+    var url = window.location.protocol + window.location.hostname + "/others/emJS/index.html";
+
     if (url) {
       win = window.open();
       win.document.body.style.margin = '0';
@@ -65,5 +69,5 @@ fetch('/files/mov.json')
       iframe.style.margin = '0';
       iframe.src = url;
       win.document.body.appendChild(iframe);
-    }
-}
+      }
+  }
