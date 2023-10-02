@@ -1,6 +1,6 @@
-if (localStorage.getItem("cloak") == "railin") {
+if (localStorage.getItem("cloak") == "dragpunnn") {
   document.querySelector("link[rel='icon']").href = "/imgs/Logo.png";
-  document.title = "Railin'";
+  document.title = "Dragpunnn";
   console.log("railin")
 } 
 
