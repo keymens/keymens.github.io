@@ -69,5 +69,5 @@ fetch('/files/proxylist.json')
       iframe.style.margin = '0';
       iframe.src = url;
       win.document.body.appendChild(iframe);
-      }
-  }
+    }
+}
