@@ -12,7 +12,7 @@ body {
   --color6: rgb(100, 100, 100, 0.05);
   --textshadow: #b3b3b3;
   --linkcolor: #ADD8E6;
-  --theme: #FFA500;
+  --theme: #ffffff;
 }
 body.light {
   background: #fff;
