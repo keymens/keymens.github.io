@@ -23,7 +23,7 @@ if (localStorage.getItem("cloak") == "ps") {
 }
 
 if (localStorage.getItem("cloak") == "google") {
-  document.querySelector("link[rel='icon']").href = "/imgs/cloaks/Google.png";
+  document.querySelector("link[rel='icon']").href = "/imgs/cloaks/google.png";
   document.title = "Google";
   console.log("google")
 }
