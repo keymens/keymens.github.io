@@ -95,6 +95,12 @@
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
+        {
+        "game": "Grand Theft<br>Auto",
+        "gameroot": "/files/gta/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
     {
         "game": "Bacon May Die",
         "gameroot": "/files/bacon/",
