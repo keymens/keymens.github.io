@@ -8,7 +8,7 @@
 // player font - paste font name from Google fonts, replace spaces with +
 $player_font = "Poppins";
 
-// player colors - paste color code in HEX format without # eg. 123456
+// player colors - paste colorcode in HEX format without # eg. 123456
 $player_bg_color = "000000"; // background color
 $player_font_color = "ffffff"; // font color
 $player_primary_color = "34cfeb"; // primary color for loader and buttons
