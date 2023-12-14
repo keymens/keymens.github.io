@@ -19,6 +19,8 @@
 .button:hover {
   cursor: pointer;
   animation: upcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  background: #ff1414;
+  box-shadow: 0 0 10px 5px #ff1414;
 }
 .tiny{
   text-align: center;
@@ -30,4 +32,20 @@
 }
 .hidden {
   display: none;
+}
+.cloakbutton {
+  margin-top: 15px;
+  border: 0;
+  margin-left: 20px;
+  background: var(--color2);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+  box-shadow: 0 0 10px 5px var(--color2);
+  animation: downcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.cloakbutton:hover {
+  cursor: pointer;
+  animation: upcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  box-shadow: 0 0 10px 5px #ffffff;
 }
