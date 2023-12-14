@@ -46,23 +46,30 @@ function enablePanic() {
     }
   });
 
-  // Change button color to indicate enabled state
-  document.getElementById("panicButton").style.backgroundColor = "green";
+  // Change button color for all elements with the "button1" class
+  var buttons = document.getElementsByClassName("button1");
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].style.backgroundColor = "green";
+  }
 
   console.log('panic is enabled');
 }
 
-// Event listener for button click
-document.getElementById("panicButton").addEventListener('click', () => {
-  // Toggle panic state
-  if (localStorage.getItem("panic") == "on") {
-    localStorage.removeItem("panic");
-    // Reset button color
-    document.getElementById("panicButton").style.backgroundColor = "";
-  } else {
-    localStorage.setItem("panic", "on");
-    enablePanic();
-  }
+// Event listener for button click for all elements with the "button1" class
+var buttons = document.getElementsByClassName("button1");
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', () => {
+    // Toggle panic state
+    if (localStorage.getItem("panic") == "on") {
+      localStorage.removeItem("panic");
+      // Reset button color for all elements with the "button1" class
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].style.backgroundColor = "";
+      }
+    } else {
+      localStorage.setItem("panic", "on");
+      enablePanic();
+    }
 
 if (localStorage.getItem("panic") == "off") {
   console.log('no panic');
