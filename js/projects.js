@@ -4,7 +4,7 @@ const IFrame = document.querySelector(".Projects-IFrame");
 
 async function addGames() {
   try {
-    const cdn = await (await fetch("https://rawcdn.githack.com/RailinGames/RailinGames.github.io/40c935501e7d4dc6b04bd4700f3ecc952a122687/Hosting/CDN.json")).json();
+    const cdn = await (await fetch("https://raw.githubusercontent.com/RailinGames/RailinGames.github.io/main/Hosting/CDN.json")).json();
     const games = await (await fetch(cdn + "list.json")).json();
     games.sort((a, b) => a.game.localeCompare(b.game));
 
