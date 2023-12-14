@@ -34,18 +34,6 @@ body.amoled {
   --color6: #000;
   --linkcolor: #0046ff;
 }
-body.ugly {
-  background: #ffd9a0;
-  --color1: #e71bcc;
-  --color2: rgba(59, 218, 183, 0.5);
-  --color3: #ad71f1;
-  --color4: rgba(217, 49, 240, 0.5);
-  --color5: #b7eb58;
-  --color6: rgba(252, 92, 92, 0.05);
-  --textshadow: #0a1f0b;
-  --linkcolor: #7a0000;
-  --theme: #77ceda;
-}
 * {
   margin: 0;
   color: var(--color1);
@@ -84,6 +72,7 @@ nav ul li {
 }
 nav ul li:hover{
   cursor: pointer;
+  animation: upcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 nav ul li i{
   margin-right: 5px;
