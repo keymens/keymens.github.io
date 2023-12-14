@@ -1,7 +1,7 @@
 if (localStorage.getItem("cloak") == "dragpunnn") {
   document.querySelector("link[rel='icon']").href = "/imgs/Logo.png";
   document.title = "Dragpunnn";
-  console.log("Dragpunnn")
+  console.log("railin")
 } 
 
 if (localStorage.getItem("cloak") == "classroom") {
@@ -35,41 +35,13 @@ if (localStorage.getItem("cloak") == "drive") {
 }
     
 if (localStorage.getItem("panic") == "on") {
-  enablePanic();
-}
-
-// Function to enable panic
-function enablePanic() {
   document.addEventListener('keydown', event => {
     if (event.keyCode == 192) {
-      window.open("https://classroom.google.com/h", "_self");
+      window.open("https://www.google.com/", "_self");
     }
-  });
-
-  // Change button color for all elements with the "button1" class
-  var buttons = document.getElementsByClassName("button1");
-  for (var i = 0; i < buttons.length; i++) {
-    buttons[i].style.backgroundColor = "green";
-  }
-
-  console.log('panic is enabled');
+  })
+  console.log('panic')
 }
-
-// Event listener for button click for all elements with the "button1" class
-var buttons = document.getElementsByClassName("button1");
-for (var i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener('click', () => {
-    // Toggle panic state
-    if (localStorage.getItem("panic") == "on") {
-      localStorage.removeItem("panic");
-      // Reset button color for all elements with the "button1" class
-      for (var i = 0; i < buttons.length; i++) {
-        buttons[i].style.backgroundColor = "";
-      }
-    } else {
-      localStorage.setItem("panic", "on");
-      enablePanic();
-    }
 
 if (localStorage.getItem("panic") == "off") {
   console.log('no panic');
@@ -90,5 +62,10 @@ window.addEventListener('DOMContentLoaded', () => {
   if (localStorage.getItem("theme") === "amoled") {
     document.body.setAttribute("class", "amoled");
     console.log('amoled');
+  }
+
+  if (localStorage.getItem("theme") === "ugly") {
+    document.body.setAttribute("class", "ugly");
+    console.log('ugly');
   }
 });
