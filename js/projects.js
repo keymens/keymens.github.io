@@ -1,64 +1,97 @@
-const Frame = document.querySelector(".Projects-Frame");
-const HAF = document.querySelectorAll(".hideAfterFullscreen");
-const IFrame = document.querySelector(".Projects-IFrame");
+// fetch('https://dragpunnn.github.io/files/list.json'
+fetch('/files/list.json')
+  .then((lessgooo) => lessgooo.json())
+  .then((games) => {
+    games.forEach((game) => {
+      const gamecontainmentchamber = document.createElement('div');
+      const gamerdiv = document.querySelector('.frame-main');
+      const gamesbutton = document.querySelector('.classes');
+      const gamerNavigaton = gamerdiv.querySelector('.frame-bar');
+      const gamerframer = document.getElementById('homework');
+      gamecontainmentchamber.className = 'class';
+      gamecontainmentchamber.innerHTML = `<img src="${game.gameroot + "/" + game.gameicon}" onerror="this.src='./imgs/noicon.png'"/>`;
+      gamecontainmentchamber.innerHTML += `<h1>${game.game}</h1>`;
+      gamesbutton.appendChild(gamecontainmentchamber);
 
-async function addGames() {
-  try {
-    const cdn = await (await fetch("./g/CDN.json")).json();
-    const games = await (await fetch(cdn + "list.json")).json();
-    games.sort((a, b) => a.game.localeCompare(b.game));
-
-    for (const game of games) {
-      const project = document.createElement("div");
-      project.className = "Projects-Project";
-      project.innerHTML = `
-                <img src="${cdn}Icons/${game.game.replace(
-        /[.\s]/g,
-        ""
-      )}.png" loading="lazy" onerror="this.src='./Imgs/NoIcon.png'"/>
-                <h1>${game.game}</h1>`;
-      document.querySelector(".Projects-Container").appendChild(project);
-
-      project.addEventListener("click", () => {
-        HAF.forEach((element) => element.classList.add("hidden"));
-        Frame.classList.remove("hidden");
-        IFrame.src = `${cdn}${game.gameroot}`;
+      gamecontainmentchamber.onclick = (e) => {
+        gamesbutton.classList.add('hidden');
+        gamerdiv.classList.remove('hidden');
+        gamerframer.src = `${game.gameroot}`;
+      };
+      gamerNavigaton.querySelector('#close').addEventListener('click', (e) => {
+        gamesbutton.classList.remove('hidden');
+        gamerdiv.classList.add('hidden');
+        gamerframer.src = '';
       });
-    }
-  } catch (error) {
-    console.error(error);
+      gamerNavigaton.querySelector('#fullscreen').addEventListener('click', (e) => {
+        if (!document.fullscreenElement) {
+            gamerframer.requestFullscreen();
+        }
+    });
+  });
+  })
+  .catch((e) => {
+    alert('There Was An Error. Press Ok.');
+    console.log(e)
+    alert(e);
+  });
+
+  function ddiissccoorrdd() {
+        var urlObj = new window.URL(window.location.href);
+        var url = window.location.protocol + window.location.hostname + "/others/dc.html";
+
+        if (url) {
+          win = window.open();
+          win.document.body.style.margin = '0';
+          win.document.body.style.height = '100vh';
+          var iframe = win.document.createElement('iframe');
+          iframe.style.border = 'none';
+          iframe.style.width = '100%';
+          iframe.style.height = '100%';
+          iframe.style.margin = '0';
+          iframe.src = url;
+          win.document.body.appendChild(iframe);
+        }
   }
+
+  function emJS() {
+    var urlObj = new window.URL(window.location.href);
+    var url = window.location.protocol + window.location.hostname + "/others/emJS/index.html";
+
+    if (url) {
+      win = window.open();
+      win.document.body.style.margin = '0';
+      win.document.body.style.height = '100vh';
+      var iframe = win.document.createElement('iframe');
+      iframe.style.border = 'none';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.margin = '0';
+      iframe.src = url;
+      win.document.body.appendChild(iframe);
+      }
+  }
+
+  function mov() {
+    var url = "/files/mov/index.html";
+    window.open(url)
+  }
+
+  function sm64() {
+    var url = "/files/64/index.html";
+    window.open(url)
+}
+ function emJS() {
+    var url = "/others/emJS/index.html";
+    window.open(url)
 }
 
-Frame.querySelector(".Projects-FrameBar").addEventListener("click", (event) => {
-  if (event.target.id === "close") {
-    HAF.forEach((element) => element.classList.remove("hidden"));
-    Frame.classList.add("hidden");
-    IFrame.src = "";
-  } else if (event.target.id === "fullscreen") {
-    const requestFullscreen =
-      IFrame.requestFullscreen ||
-      IFrame.webkitRequestFullscreen ||
-      IFrame.msRequestFullscreen;
-    requestFullscreen.call(IFrame);
-  } else if (event.target.id === "link") window.open(IFrame.src);
-});
+function mc15() {
+  var url = "/files/15/index.html";
+  window.open(url)
+}
 
-document.getElementById("GameSearchBar").addEventListener("input", () => {
-  const searchedup = document
-    .getElementById("GameSearchBar")
-    .value.trim()
-    .toLowerCase();
-  const gameholders = document.querySelector(".Projects-Container");
-  const gmae = gameholders.querySelectorAll(".Projects-Project");
-
-  gmae.forEach((game) => {
-    var gamenames = game.querySelector("h1").innerText.trim().toLowerCase();
-    if (gamenames.includes(searchedup)) game.classList.remove("hidden");
-    else game.classList.add("hidden");
-  });
-});
-
-addGames();
-
-// dont mind this
+function mc18() {
+  var url = "/files/18/index.html";
+  window.open(url)
+}
