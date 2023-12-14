@@ -35,13 +35,34 @@ if (localStorage.getItem("cloak") == "drive") {
 }
     
 if (localStorage.getItem("panic") == "on") {
+  enablePanic();
+}
+
+// Function to enable panic
+function enablePanic() {
   document.addEventListener('keydown', event => {
     if (event.keyCode == 192) {
       window.open("https://classroom.google.com/h", "_self");
     }
-  })
-  console.log('panic')
+  });
+
+  // Change button color to indicate enabled state
+  document.getElementById("panicButton").style.backgroundColor = "green";
+
+  console.log('panic is enabled');
 }
+
+// Event listener for button click
+document.getElementById("panicButton").addEventListener('click', () => {
+  // Toggle panic state
+  if (localStorage.getItem("panic") == "on") {
+    localStorage.removeItem("panic");
+    // Reset button color
+    document.getElementById("panicButton").style.backgroundColor = "";
+  } else {
+    localStorage.setItem("panic", "on");
+    enablePanic();
+  }
 
 if (localStorage.getItem("panic") == "off") {
   console.log('no panic');
