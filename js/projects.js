@@ -1,5 +1,5 @@
-// fetch('https://dragpunnn.github.io/files4drag/files/'
-fetch('https://dragpunnn.github.io/files4drag/files/')
+// fetch('https://raw.githubusercontent.com/dragpunnn/files4drag/main/files/list.json'
+fetch('https://raw.githubusercontent.com/dragpunnn/files4drag/main/files/list.json')
   .then((lessgooo) => lessgooo.json())
   .then((games) => {
     games.forEach((game) => {
