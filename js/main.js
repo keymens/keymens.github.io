@@ -1,7 +1,7 @@
 if (localStorage.getItem("cloak") == "dragpunnn") {
   document.querySelector("link[rel='icon']").href = "/imgs/Logo.png";
   document.title = "Dragpunnn";
-  console.log("railin")
+  console.log("Dragpunnn")
 } 
 
 if (localStorage.getItem("cloak") == "classroom") {
@@ -37,7 +37,7 @@ if (localStorage.getItem("cloak") == "drive") {
 if (localStorage.getItem("panic") == "on") {
   document.addEventListener('keydown', event => {
     if (event.keyCode == 192) {
-      window.open("https://www.google.com/", "_self");
+      window.open("https://classroom.google.com/h", "_self");
     }
   })
   console.log('panic')
@@ -62,10 +62,5 @@ window.addEventListener('DOMContentLoaded', () => {
   if (localStorage.getItem("theme") === "amoled") {
     document.body.setAttribute("class", "amoled");
     console.log('amoled');
-  }
-
-  if (localStorage.getItem("theme") === "ugly") {
-    document.body.setAttribute("class", "ugly");
-    console.log('ugly');
   }
 });
