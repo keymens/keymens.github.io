@@ -70,28 +70,3 @@ fetch('https://raw.githubusercontent.com/dragpunnn/files4drag/main/files/list.js
       iframe.src = url;
       win.document.body.appendChild(iframe);
       }
-  }
-
-  function mov() {
-    var url = "/files/mov/index.html";
-    window.open(url)
-  }
-
-  function sm64() {
-    var url = "/files/64/index.html";
-    window.open(url)
-}
- function emJS() {
-    var url = "/others/emJS/index.html";
-    window.open(url)
-}
-
-function mc15() {
-  var url = "/files/15/index.html";
-  window.open(url)
-}
-
-function mc18() {
-  var url = "/files/18/index.html";
-  window.open(url)
-}
