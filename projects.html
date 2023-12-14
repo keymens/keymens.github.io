@@ -1,52 +1,48 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dragpunnn</title>
-    <link rel="stylesheet" href="./css/projects.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <script src="https://kit.fontawesome.com/11fe60c87a.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./imgs/Logo.png" sizes="128x128" />
-    <meta property="og:title" content="Railin"/>
-    <meta property="og:description" content="Best game site"/>
-    <meta property="og:image" content="https://railingames.github.io/imgs/banner.png"/>
-    <script src="./js/projects.js"></script>
-    <meta name="twitter:card" content="summary_large_image">
-    <script src="./js/main.js"></script>
-    <meta name="theme-color" content="#eb6123">
+    <title>Dragpunnn</title>
+    <link rel="icon" type="image/png" href="./imgs/Logo.png">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
-<body onload="pageLoad()">
+<body class="default">
 
-     <nav class="bar">
-        <a class="iconnnn"><img src="./imgs/Logo.png"></a>
-        <ul>
-        <li><a href="./"><i class="fa-solid fa-house"></i><span >Home</span></a></li>
-            <li><a href="./projects.html"><i class="fa-solid fa-gamepad"></i><span>Games</span></a></li>
-           <li><a href="./mov.html"><i class="fa-solid fa-film""></i><span>Movies</span></a></li>
-               <li><a href="./proxy.html"><i class="fa-solid fa-location-dot"></i><span>Proxy</span></a></li>
-            <li><a href="./settings.html"><i class="fa-solid fa-gear"></i><span>Settings</span></a></li>
-          
-        </ul>
+    <nav class="Navigation hideAfterFullscreen">
+        <div class="Navigation-Container">
+            <a class="Navigation-Image" href="./"><img src="./imgs/Logo.png"></img></a>
+            <ul>
+                <li class="Navigation-Button"><a href="./"><i class="las la-home"></i><p>Home</p></a></li>
+                <li class="Navigation-Button"><a href="./g.html"><i class="las la-file"></i><p>Projects</p></a></li>
+                <li class="Navigation-Button"><a href="./e.html"><i class="las la-hourglass-half"></i><p>Emulator</p></a></li>
+                <li class="Navigation-Button"><a href="./settings.html"><i class="las la-cog"></i><p>Settings</p></a></li>
+            <ul>
+        </div>
     </nav>
-
-    <div class="frame-main hidden">
-        <div class="frame-bar" id="buggati">
-            <i id="close" class="fa-solid fa-arrow-left"></i>
-            <i id="fullscreen" class="fa-solid fa-maximize"></i>
+    
+    <div class="Projects-Frame hidden">
+        <div class="Projects-FrameBar">
+            <i id="close" class="las la-times-circle"></i>
+            <i id="fullscreen" class="las la-expand"></i>
+            <i id="link" class="las la-link"></i>
         </div>
-        <iframe id="homework" src=""></iframe>
+        <iframe class="Projects-IFrame" src=""></iframe>
     </div>
-<h1 class="ti">GAMES!</h1>
-    <br>
-    <hr>
-    <br>
-        <div class="classes">
-            <div class="class"><a onclick="emJS()"><img src="./imgs/icons/emJS.png" onerror="this.src='./imgs/noicon.png'"></a><h1>Emualt0r</h1></div>
-        <div class="class"><a onclick="sm64()"><img src="./files/64/gameicon.png" onerror="this.src='./imgs/noicon.png'"></a><h1>Super Mario 64</h1></div>
-        <div class="class"><a onclick="mc18()"><img src="./files/18/splash.png" onerror="this.src='./imgs/noicon.png'"></a><h1>Minecraft 1.8</h1></div>
-    <div class="class"><a href="https://math-study.github.io/gba/main/play/index.html?console=nds&game=LEGO_Batman_-_The_Videogame_(USA)_(EnFrEs)" target="_blank"> <img src="./files/legobat/gameicon.png" onerror="this.src='./imgs/noicon.png'"> <h1>LEGO Batman</h1> </a> </div>
-       <div class="class"><a href="https://math-study.github.io/gba/main/play/index.html?console=nds&game=LEGO_Batman_2_-_DC_Super_Heroes_(USA)_(EnFrEsPt)" target="_blank"> <img src="./files/legobat2/gameicon.png" onerror="this.src='./imgs/noicon.png'"> <h1>LEGO Batman 2</h1> </a> </div>
-         <div class="class"><a href="https://math-study.github.io/gba/main/play/index.html?console=nds&game=LEGO_Star_Wars_-_The_Complete_Saga_(USA)" target="_blank"> <img src="./files/legostar/gameicon.png" onerror="this.src='./imgs/noicon.png'"> <h1>LEGO Star Wars - <br> Complete Saga</h1> </a> </div>
-        </div>
+
+    <div class="hideAfterFullscreen">
+        <center>
+            <h1 style="margin-top: 25px; color: var(--text-color1)">Projects</h1>
+            <p style="margin-bottom: 25px;"><a style="color: var(--text-color1); text-decoration: underline;" href="https://docs.google.com/forms/d/e/1FAIpQLSdxE59ZmQ1XB9KiCue66vxhiiiJqe03wZMRAJG2TzGSOvTP7A/viewform">Request Project</a></p>
+        </center>
+        <hr>
+        <center style="padding: 2em 0 0 0">
+
+            <input type="text" class="Settings-TextInput" id="GameSearchBar" placeholder="Search For Project">
+        </center>
+    </div>
+
+    <script src="./js/projects.js"></script>
 </body>
 </html>
