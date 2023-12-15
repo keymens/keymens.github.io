@@ -1,5 +1,5 @@
-// fetch('https://dragpunnn.github.io/files/mov.json'
-fetch('/files/mov.json')
+// fetch('https://dragpunnn.github.io/infinity/infinitylist.json'
+fetch('./files/infinity/infinitylist.json')
   .then((lessgooo) => lessgooo.json())
   .then((games) => {
     games.forEach((game) => {
@@ -54,6 +54,10 @@ fetch('/files/mov.json')
         }
   }
 
+  function emJS() {
+    var urlObj = new window.URL(window.location.href);
+    var url = window.location.protocol + window.location.hostname + "/others/emJS/index.html";
+
     if (url) {
       win = window.open();
       win.document.body.style.margin = '0';
@@ -65,5 +69,29 @@ fetch('/files/mov.json')
       iframe.style.margin = '0';
       iframe.src = url;
       win.document.body.appendChild(iframe);
-    }
+      }
+  }
+
+  function mov() {
+    var url = "/files/mov/index.html";
+    window.open(url)
+  }
+
+  function sm64() {
+    var url = "/files/64/index.html";
+    window.open(url)
+}
+ function emJS() {
+    var url = "/others/emJS/index.html";
+    window.open(url)
+}
+
+function mc15() {
+  var url = "/files/15/index.html";
+  window.open(url)
+}
+
+function mc18() {
+  var url = "/files/18/index.html";
+  window.open(url)
 }
