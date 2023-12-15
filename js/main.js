@@ -1,7 +1,7 @@
 if (localStorage.getItem("cloak") == "dragpunnn") {
   document.querySelector("link[rel='icon']").href = "/imgs/Logo.png";
   document.title = "Dragpunnn";
-  console.log("draagpunnn")
+  console.log("dragpunnn")
 } 
 
 if (localStorage.getItem("cloak") == "classroom") {
