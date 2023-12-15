@@ -1,15 +1,15 @@
 [
     {
         "game": "Subway Surfers",
-        "gameroot": "https://rawcdn.githack.com/dragpunnn/files4drag/55b5c0c6416eba57ce756dad2b4ea9683fe98b7e/files/Subway/",
-        "gamefile": "https://rawcdn.githack.com/dragpunnn/files4drag/55b5c0c6416eba57ce756dad2b4ea9683fe98b7e/files/Subway/index.html",
-        "gameicon": "https://rawcdn.githack.com/dragpunnn/files4drag/55b5c0c6416eba57ce756dad2b4ea9683fe98b7e/files/Subway/gameicon.png"
+        "gameroot": "/files/Subway/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
     },
     {
         "game": "Slope",
-        "gameroot": "https://rawcdn.githack.com/dragpunnn/files4drag/55b5c0c6416eba57ce756dad2b4ea9683fe98b7e/files/Slope/",
-        "gamefile": "https://rawcdn.githack.com/dragpunnn/files4drag/55b5c0c6416eba57ce756dad2b4ea9683fe98b7e/files/slope/index.html",
-        "gameicon": "https://rawcdn.githack.com/dragpunnn/files4drag/55b5c0c6416eba57ce756dad2b4ea9683fe98b7e/files/slope/gameicon.jpeg"
+        "gameroot": "/files/Slope/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpeg"
     },
      {
         "game": "Teenage Mutant<br>Ninja Turtles",
