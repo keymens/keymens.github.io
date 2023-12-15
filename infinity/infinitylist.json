@@ -1,0 +1,14 @@
+[
+    {
+        "game": "Subway Surfers",
+        "gameroot": "/files/Subway/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.png"
+    },
+    {
+        "game": "Slope",
+        "gameroot": "/files/Slope/",
+        "gamefile": "index.html",
+        "gameicon": "gameicon.jpeg"
+    }
+]
