@@ -1,5 +1,5 @@
 // fetch('https://dragpunnn.github.io/infinity/infinitylist.json'
-fetch('./files/infinity/infinitylist.json')
+fetch('./infinity/infinitylist.json')
   .then((lessgooo) => lessgooo.json())
   .then((games) => {
     games.forEach((game) => {
