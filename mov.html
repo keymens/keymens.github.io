@@ -51,6 +51,18 @@
             font-size: 20px;
             cursor: pointer;
         }
+    #closePopupBtn:hover {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      cursor: pointer;
+      animation: upcenta 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      border: none;
+      background: #ff1414;
+      box-shadow: 0 0 10px 5px #ff1414;
+    }
 
         /* Animation keyframes */
         @keyframes slideIn {
@@ -73,42 +85,60 @@
     /* Style for the search bar */
     #videoId {
       color: white;
+      border: none;
       background: transparent;
-      border: 3px solid;
-      border-color: white;
-      border-radius: 10px;
       font-size: 18px;
       text-align: center;
       padding: 5px;
       font-family: Arial, sans-serif;
       font-weight: bold;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
+      background: var(--color2);
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 0 10px 5px var(--color2);
+      animation: downcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      
     }
 
     /* Style for the submit button */
     #submitBtn {
-      background-color: transparent;
-      color: white;
-      border: 3px solid;
+      margin-top: 5px;
+      border: 0;
+      margin-left: 5px;
+      background: var(--color2);
       border-radius: 10px;
-      padding: 10px 20px;
-      cursor: pointer;
-      transition: border-color 0.3s;
+      width: fit-content;
+      padding: 10px;
+      box-shadow: 0 0 10px 5px var(--color2);
+      animation: downcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     }
        #infoBtn {
-      background-color: transparent;
-      color: white;
-      border: 3px solid;
-      border-radius: 10px;
-      padding: 10px 20px;
-      cursor: pointer;
-      transition: border-color 0.3s;
-    }
+    margin-top: 5px;
+    border: 0;
+    margin-left: 5px;
+    background: var(--color2);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 0 0 10px 5px var(--color2);
+    animation: downcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+       }
 
     /* Change border color on hover */
     #submitBtn:hover {
-      border-color: red;
+      cursor: pointer;
+      animation: upcenta 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      border: none;
+      background: #ff1414;
+      box-shadow: 0 0 10px 5px #ff1414;
     }
+          #infoBtn:hover {
+             cursor: pointer;
+              animation: upcenta 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+              border: none;
+              background: #ff1414;
+              box-shadow: 0 0 10px 5px #ff1414;
   </style>
 </head>
 <body onload="pageLoad()">
@@ -227,16 +257,6 @@
     <script src="./js/mov.js"></script>
   </center>
   <br>
-  <div class="classes">
-    <div class="class"><a href="./files/mov/index.html" target="_blank"> <img src="./files/mov/gameicon.png"
-          onerror="this.src='./imgs/noicon.png'">
-        <h1>Movies and TV</h1>
-        </a> </div>
-    <div class="class"><a href="https://www.wcofun.org/" target="_blank"> <img src="./files/carto/gameicon.png"
-          onerror="this.src='./imgs/noicon.png'">
-        <h1>Cartoons</h1>
-       </a> </div>
-  </div>
       <div id="customPopupContainer">
         <div id="customPopup">
             <span id="closePopupBtn">&times;</span>
@@ -260,7 +280,16 @@
             customPopupContainer.style.display = "none"; // Hide the popup container
         });
     </script>
-
+  <div class="classes">
+    <div class="class"><a href="./files/mov/index.html" target="_blank"> <img src="./files/mov/gameicon.png"
+          onerror="this.src='./imgs/noicon.png'">
+        <h1>Movies and TV</h1>
+        </a> </div>
+    <div class="class"><a href="./infinity.html" target="_blank"> <img src="./files/infinity/gameicon.png"
+          onerror="this.src='./imgs/noicon.png'">
+        <h1>Marvel's<br>Infinity Saga</h1>
+       </a> </div>
+  </div>
 </body>
 
 </html>
