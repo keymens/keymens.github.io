@@ -1,14 +1,14 @@
 [
     {
-        "game": "Subway Surfers",
-        "gameroot": "/files/Subway/",
+        "game": "Part 1",
+        "gameroot": "/infinity/parts/1/",
         "gamefile": "index.html",
         "gameicon": "gameicon.png"
     },
     {
-        "game": "Slope",
-        "gameroot": "/files/Slope/",
+        "game": "Part 2",
+        "gameroot": "/infinity/parts/2/",
         "gamefile": "index.html",
-        "gameicon": "gameicon.jpeg"
+        "gameicon": "gameicon.png"
     }
 ]
