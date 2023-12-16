@@ -27,8 +27,8 @@ function googleDrive() {
   localStorage.setItem("cloak", "drive");
   location.reload()
 }
-function newtab() {
-  localStorage.setItem("cloak", "tab");
+function clever() {
+  localStorage.setItem("cloak", "clever");
   location.reload()
 }
 
