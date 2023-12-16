@@ -27,6 +27,10 @@ function googleDrive() {
   localStorage.setItem("cloak", "drive");
   location.reload()
 }
+function newtab() {
+  localStorage.setItem("cloak", "tab");
+  location.reload()
+}
 
 function pEnable() {
   localStorage.setItem("panic", "on");
