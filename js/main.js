@@ -33,6 +33,11 @@ if (localStorage.getItem("cloak") == "drive") {
   document.title = "My Drive - Google Drive";
   console.log("drive")
 }
+if (localStorage.getItem("cloak") == "tab") {
+  document.querySelector("link[rel='icon']").href = "/imgs/cloaks/newtab.png";
+  document.title = "New Tab";
+  console.log("tab")
+}
     
 if (localStorage.getItem("panic") == "on") {
   document.addEventListener('keydown', event => {
